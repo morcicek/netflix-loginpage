@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
+    url("./images/backround.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#main {
+  padding-left: 5%;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 90px;
+  color: #e50914;
+}
+
+.login {
+  background-color: #000104;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  margin: auto;
+  width: 400px;
+  height: 600px;
+  color: aliceblue;
+  border: 2px solid black;
+  text-align: center;
+}
+
+.head {
+  margin: 15px;
+  padding-right: 40%;
+}
+
+.mail {
+  width: 75%;
+  height: 3em;
+  background-color: gray;
+  color: aliceblue;
+}
+
+button {
+  width: 75%;
+  height: 3em;
+  background-color: red;
+  color: aliceblue;
+}
+
+.a1 {
+  color: aliceblue;
+  padding-right: 35%;
+  width: auto;
+}
+
+.a1:link {
+  text-decoration: none;
+}
+
+.a1:hover {
+  text-decoration: underline;
+}
+.a2 {
+  color: aliceblue;
+  padding-right: 25%;
+  width: auto;
+}
+
+.a2:link {
+  text-decoration: none;
+}
+
+.a2:hover {
+  text-decoration: underline;
+}
