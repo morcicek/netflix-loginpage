@@ -5,7 +5,7 @@
 
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),
-    url("./images/backround.jpg");
+    url("https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png");
   background-position: center;
   background-size: cover;
 }
@@ -20,27 +20,30 @@ body {
   color: #e50914;
 }
 
+.login-head {
+  margin: auto;
+}
+
 .login {
-  background-color: #000104;
+  background-color: rgba(0, 0, 0, 0.8);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   margin: auto;
-  width: 400px;
-  height: 600px;
+  max-width: 400px;
+  height: 500px;
   color: aliceblue;
   border: 2px solid black;
   text-align: center;
 }
 
 .head {
-  margin: 15px;
-  padding-right: 40%;
+  margin-top: 30px;
+  padding-right: 45%;
 }
 
 .mail {
   width: 75%;
   height: 3em;
-  background-color: gray;
   color: aliceblue;
 }
 
@@ -49,12 +52,29 @@ button {
   height: 3em;
   background-color: red;
   color: aliceblue;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+}
+
+.help {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.div1 {
+  position: absolute;
+  right: 13%;
+}
+
+.div2 {
+  position: absolute;
+  left: 13%;
 }
 
 .a1 {
-  color: aliceblue;
-  padding-right: 35%;
-  width: auto;
+  color: white;
+  font-size: 12px;
 }
 
 .a1:link {
@@ -64,16 +84,16 @@ button {
 .a1:hover {
   text-decoration: underline;
 }
+
+label {
+  font-size: 12px;
+}
+
+.last {
+  margin: auto;
+}
+
 .a2 {
-  color: aliceblue;
-  padding-right: 25%;
-  width: auto;
-}
-
-.a2:link {
-  text-decoration: none;
-}
-
-.a2:hover {
-  text-decoration: underline;
+  color: gray;
+  font-size: 14px;
 }
